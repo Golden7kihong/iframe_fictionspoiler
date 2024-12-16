@@ -1,0 +1,28 @@
+body {
+  background-color: #ffffff;
+  font-family: "Noto Serif KR", serif;
+}
+.ifram-container {
+  position: relative; /* 부모 요소에 relative 설정 */
+  width: 100vw; /* 부모 요소 크기 설정 */
+  height: 100vh;
+}
+
+#iframe {
+  display: block;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+
+#qr {
+  position: absolute;
+  width: 15vw;
+  top: 50%;
+  left: 13%;
+  transform: translateY(-50%);
+
+}
